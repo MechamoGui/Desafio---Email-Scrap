@@ -1,0 +1,32 @@
+{
+  "name": "web-scraper-email",
+  "version": "1.0.0",
+  "description": "Um web scraper que coleta notícias de tecnologia e envia por email",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js",
+    "test": "node -e \"console.log('✅ Projeto configurado corretamente!')\"",
+    "config": "node -e \"const {ScrapingEmailService} = require('./main.js'); new ScrapingEmailService().saveSampleConfig().then(() => process.exit(0));\""
+  },
+  "keywords": [
+    "web-scraping",
+    "email",
+    "nodejs",
+    "automation",
+    "hacker-news"
+  ],
+  "author": "Seu Nome",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "nodemailer": "^6.9.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

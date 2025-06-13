@@ -1,0 +1,8 @@
+{
+    "smtpServer": "smtp.gmail.com",
+    "smtpPort": 587,
+    "fromEmail": "gv93298@gmail.com",
+    "emailPassword": "oxka onuc evbf pbga",
+    "toEmail": "gv93298@gmail.com",
+    "storiesLimit": 10
+}
