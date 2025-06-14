@@ -1,8 +1,8 @@
 {
     "smtpServer": "smtp.gmail.com",
     "smtpPort": 587,
-    "fromEmail": "gv93298@gmail.com",
-    "emailPassword": "oxka onuc evbf pbga",
-    "toEmail": "gv93298@gmail.com",
+    "fromEmail": "seu_email@gmail.com",
+    "emailPassword": "sua_senha_app_password",
+    "toEmail": "destinatario@gmail.com",
     "storiesLimit": 10
 }
