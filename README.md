@@ -18,15 +18,10 @@ Em "Senhas de app", gere uma nova
 Use essa senha no lugar da sua senha normal
 
 Configure o projeto:
-1. abra o arquivo "config.json"
-2. Altere os campos de: "seu_email@gmail.com" pelo seu E-mail e "destinatario@gmail.com" pelo E-mail que deseja enviar, com sua senha gerada anteriormente, coloque no  "senha_de_app_gerada"
-json{
-    "smtpServer": "smtp.gmail.com",
-    "smtpPort": 587,
-    "fromEmail": "seu_email@gmail.com",
-    "emailPassword": "senha_de_app_gerada",
-    "toEmail": "destinatario@gmail.com"
-}
+abra o arquivo "config.json"
+Altere os campos de: "seu_email@gmail.com" pelo seu E-mail e
+"destinatario@gmail.com" pelo E-mail que deseja enviar e com sua senha gerada anteriormente, 
+coloque no "senha_de_app_gerada"
 
 🎯 Uso
 Execução Simples
